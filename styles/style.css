@@ -58,6 +58,7 @@ header{
     
 }
 .ham-burger{
+    color: white;
     display: none;
 }
 .home{
@@ -114,6 +115,9 @@ header{
     border: 2px solid firebrick;
     width: 350px;
     height: 580px;
+}
+.banner-img img{
+    width: 100%;
 }
 .img-btn{
     display: flex;
@@ -201,4 +205,34 @@ header{
     color: rgb(255, 255, 255);
 
    
+}
+
+
+
+
+
+/* Responsive for Mobile device */
+@media screen and (max-width: 576px) {
+/* nav sectin */
+    .nav-option{
+    display: none;
+}
+.ham-burger{
+    display: inline;
+}
+    /*banner section  */
+    header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .banner-section{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img img{
+        width: 100%;
+    }
 }
