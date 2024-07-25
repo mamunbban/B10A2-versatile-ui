@@ -74,6 +74,7 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 88px;
+    margin-top: 30px;
    
 }
 
@@ -259,13 +260,62 @@ body{
 .hide{
     display: none;
 }
+/* Run Section Start */
+.run{
+    max-width: 1060px;
+    height: 370px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 
+
+}
+.run-content{
+    
+    width: 443px;
+    height: 289px;
+    margin-top: 41px;
+    margin-left: 54px;
+    margin-bottom: 41px;
+
+}
+.run-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+.run-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+.run-content >button{
+    margin-top: 40px;
+    
+    
+
+}
+.run-img{
+    
+    margin-top: 30px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+}
+.run-img>img {
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+}
 
 
 /* Responsive for Mobile device */
 @media screen and (max-width: 576px) {
-/* nav sectin */
-
+/* nav section */
 .ham-burger{
     display: inline;
 }
@@ -278,6 +328,7 @@ body{
     gap: 200px
     ;
 }
+/* nav section end */
 
    /* banner section  */
    .header{
@@ -312,13 +363,52 @@ body{
     display: flex;
     flex-direction: row;
    }
+   /* banner section end */
 
    /* Your havit section */
    .your-havit-box{
     flex-direction: column;
+    margin-left: 30px;
+
    }
    .title{
     font-size: 32px;
+   }
+   /* Your havit section end */
+
+   /* Run Section start */
+   .run{
+    background: rgb(34, 34, 34);
+    width: 353px;
+    height: 531px;
+    margin-left: 55px;
+    flex-direction: column;
+   }
+   .run-content{
+    width: 287px;
+    height: 97px;
+    margin-left: 33px;
+    
+   }
+   .run-content h1{
+    font-size: 32px;
+    font-weight: 900;
+   }
+
+   .run-img>img{
+    width: 287px;
+    height: 170px;
+    margin-left: 33px;
+    
+   }
+
+   #btn{
+    width: 280px;
+    height: 54px;
+   }
+
+
+
    }
 
 
