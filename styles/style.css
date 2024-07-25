@@ -3,7 +3,7 @@
 
 body{
     font-family: "Inter", sans-serif;
-    background: rgb(0, 0, 0);
+     background: rgb(0, 0, 0);  
 }
 
 
@@ -20,8 +20,8 @@ body{
     margin: 5rem auto;
 }
 
-header{
-    border: 2px solid white;
+.header{
+    
     background: linear-gradient(180.00deg, rgb(29, 28, 28), rgba(133, 133, 133, 0) 100%);
     
 }
@@ -29,7 +29,7 @@ header{
 
 /* Nav-bar Style  */
 .nav-bar{
-    border: 2px solid tomato;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +81,7 @@ header{
     width: 520px;
     height: 280px;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
 
     
    
@@ -112,13 +112,12 @@ header{
 
 .banner-img{
     position: relative;
-    border: 2px solid firebrick;
+
     width: 350px;
     height: 580px;
 }
-.banner-img img{
-    width: 100%;
-}
+
+
 .img-btn{
     display: flex;
     border-radius: 12px;
@@ -126,7 +125,7 @@ header{
     align-items: center;
     position: absolute;
     backdrop-filter: blur(15px);
-    bottom: 28px;
+    bottom: 35px;
     left: -105px;
     width: 205px;
     height: 95px;
@@ -192,6 +191,7 @@ header{
     font-weight: 600;
     background-color: rgb(230, 83, 60);
     margin-right: 16px;
+    margin-top: 15px;
 }
 .btn-secondary{
     
@@ -203,8 +203,56 @@ header{
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    margin-top: 15px;
 
    
+}
+
+/* Your havit section */
+
+.your-havit{
+    border: 2px solid red;
+    text-align: center;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+    
+}
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.your-havit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 58px;
+
+}
+.your-havit-box h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 24px; 
+}
+
+.your-havit-box p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 8px;
+}
+
+
+.your-havit-box img{
+    border-radius: 50%;
 }
 
 
@@ -214,25 +262,39 @@ header{
 /* Responsive for Mobile device */
 @media screen and (max-width: 576px) {
 /* nav sectin */
-    .nav-option{
+
+.header{
+    background: fixed;
+    margin-left: 60px;
+    padding: 20px;} 
+    
+.nav-bar{
+    width: 100%;
+    margin-left: 0 auto;
+
+}
+.nav-option{
     display: none;
 }
 .ham-burger{
     display: inline;
 }
-    /*banner section  */
-    header{
-        width: 100%;
-        margin: 0 auto;
-    }
+
+
+   .banner-section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
     
-    .banner-section{
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .banner-img img{
-        width: 100%;
-    }
+   }
+
+   .banner-img{
+    margin-top: 80px;
+   }
+   
+
+   
+
+
+   
 }
