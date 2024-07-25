@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    /* width: 80%; */
     margin: 5rem auto;
 }
 
@@ -280,7 +280,11 @@ body{
     display: inline;
 }
 
+/* Banner Section Responsive */
 
+.container{
+    margin: 5rem auto;
+}
    .banner-section{
     display: flex;
     flex-direction: column;
@@ -291,6 +295,18 @@ body{
    .banner-img{
     margin-top: 80px;
    }
+
+   /* your havit section  */
+   .your-havit{
+    margin: 20px auto;
+   }
+   .your-havit-box{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+
    
 
    
