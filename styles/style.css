@@ -16,8 +16,8 @@ body{
 }
 
 .container{
-    /* width: 80%; */
-    margin: 5rem auto;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .header{
@@ -255,7 +255,9 @@ body{
     border-radius: 50%;
 }
 
-
+.hide{
+    display: none;
+}
 
 
 
@@ -263,48 +265,53 @@ body{
 @media screen and (max-width: 576px) {
 /* nav sectin */
 
-.header{
-    background: fixed;
-    margin-left: 60px;
-    padding: 20px;} 
-    
-.nav-bar{
-    width: 100%;
-    margin-left: 0 auto;
-
-}
-.nav-option{
-    display: none;
-}
 .ham-burger{
     display: inline;
 }
 
-/* Banner Section Responsive */
-
-.container{
-    margin: 5rem auto;
+.nav-option{
+    display: none;
 }
+.nav-bar{
+    width: fit-content;
+    gap: 200px
+    ;
+}
+
+   /* banner section  */
+   .header{
+    width: 100%;
+    background: fixed;
+   }
+   .banner-content{
+    width: 100%;
+   }
    .banner-section{
-    display: flex;
+    width: 100%;
     flex-direction: column;
-    margin: 10px auto;
-    
    }
 
    .banner-img{
-    margin-top: 80px;
+    width: 100%;
+    margin:1rem auto;
    }
 
-   /* your havit section  */
-   .your-havit{
-    margin: 20px auto;
+   .banner-content h1{
+    font-size: 36px;
+    font-weight: 900;
+    width: 250px;
    }
-   .your-havit-box{
+   .btn-box .btn-primary, .btn-secondary{
+   width: 352px;
+   height: 54px;
+   font-size: 12px;
+
+   }
+   .btn-box{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
    }
+
 
 
    
