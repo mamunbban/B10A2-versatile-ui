@@ -311,6 +311,156 @@ body{
     width: 366px;
     height: 312px;
 }
+/* Calculator section start */
+.calculator{
+    display: flex;
+    
+    width: 100%;
+    height: 487px;
+    background: rgba(34, 34, 34);
+    border: 2px solid tomato;
+    margin-bottom: 70px;
+}
+.bmi-title{
+    width: 443px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+table, td, th{
+    border: 1px solid  rgba(255, 255, 255, .10)
+}
+table{
+   border-collapse: collapse;
+   
+}
+th, td{
+    padding: 10px;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.input-sec{
+    display: flex;
+    flex-direction: column;
+    width: 577px;
+    height: 387px;
+
+   
+}
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+}
+.input-container{
+   width: 282.5px;
+   height: 48px;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 8px;
+   margin-top: 12px;
+
+}
+
+.factor{
+    height: 60px;
+    grid-template-rows: repeat(1, 2fr);
+
+}
+
+/* Calculator sec end */
+
+/* Our team sec start */
+
+
+.ourteam-sec{
+    
+    width: 1060px;
+    height: 782px;
+}
+.team-title{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.team-title h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.ourteam-sec h1{
+    color: rgb(255, 255, 255);
+
+}
+.ourteam-sec p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.team-img-box{
+    width: 1060px;
+    height: 610px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    
+    
+}
+
+.team-img-box img{
+    width: 330px;
+    height: 272px;
+    border-radius: 18px;
+    position: relative;
+    
+
+}
+.img-card{
+    margin-left: 10px;
+    position: relative;
+}
+.name{
+    font-size: 20px;
+    position:  absolute;
+    bottom: 28px;
+    left: 30px;
+    line-height: 25 px;
+}
+.trainer{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+   
+    
+
+
+    
+    
+    
+    
+
+
+
+
+    
+   
+    
+
+
+
+
 
 
 /* Responsive for Mobile device */
@@ -407,6 +557,26 @@ body{
     height: 54px;
    }
 
+   /* Our team sec start */
+   .team-img-box{
+    grid-template-columns: 1fr;
+    width: 353px;
+    height: fit-content;
+   }
+   .img-card{
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    
+   }
+   .img-card img{
+    
+   }
+
 
 
    }
@@ -419,4 +589,4 @@ body{
 
 
    
-}
+
