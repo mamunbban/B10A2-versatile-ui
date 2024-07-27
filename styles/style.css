@@ -382,7 +382,7 @@ td{
 /* Our team sec start */
 
 
-.ourteam-sec{
+.our-team-sec{
     
     width: 1060px;
     height: 782px;
@@ -397,11 +397,11 @@ td{
     font-weight: 900;
     margin-bottom: 10px;
 }
-.ourteam-sec h1{
+.our-team-sec h1{
     color: rgb(255, 255, 255);
 
 }
-.ourteam-sec p{
+.our-team-sec p{
     color: rgba(255, 255, 255, 0.5);
 }
 .team-img-box{
@@ -558,24 +558,35 @@ td{
    }
 
    /* Our team sec start */
+   .team-title{
+    margin-left: 28px;
+   }
+
+
+
    .team-img-box{
     grid-template-columns: 1fr;
     width: 353px;
     height: fit-content;
+    margin-left: 28px;
    }
    .img-card{
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
     justify-items: center;
     margin-top: 16px;
     margin-bottom: 16px;
-    
-    
    }
-   .img-card img{
-    
+
+
+   .team-title h1{
+    font-size: 32px;
    }
+   .team-title p{
+    font-size: 14px;
+   }
+   
+   
 
 
 
