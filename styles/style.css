@@ -3,7 +3,7 @@
 
 body{
     font-family: "Inter", sans-serif;
-     background: rgb(0, 0, 0);  
+     background: rgb(0, 0, 0);
 }
 /* Shared Styles */
 *{
@@ -436,6 +436,54 @@ td{
 }
 /* Calculator sec end */
 
+/* Unique sec start */
+
+.our-service{
+    width: 1060px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.our-service p{
+    color: rgb(230, 83, 60);
+    text-align: center;
+    padding-top: 10px;
+    
+
+
+}
+.our-service h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 26px;
+
+}
+.service-box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.service-box i{
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(225, 91, 70);
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.service-box p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+/* Unique sec end */
+
 /* Our team sec start */
 
 
@@ -446,7 +494,7 @@ td{
 }
 .team-title{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 60px;
 }
 .team-title h1{
@@ -795,6 +843,15 @@ td{
    
 
    /* Calculator sec end */
+
+   /* Unique sec start */
+   .service-box{
+    display: flex;
+    flex-direction: column ;
+   }
+
+
+   /* Unique sec end */
 
 
 
